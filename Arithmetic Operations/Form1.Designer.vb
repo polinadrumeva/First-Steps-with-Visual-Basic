@@ -27,6 +27,7 @@ Partial Class Form1
         Me.lblNumber1 = New System.Windows.Forms.Label()
         Me.lblNumber2 = New System.Windows.Forms.Label()
         Me.btnCalculate = New System.Windows.Forms.Button()
+        Me.btnGrading = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'txtNumber1
@@ -63,19 +64,29 @@ Partial Class Form1
         '
         'btnCalculate
         '
-        Me.btnCalculate.Location = New System.Drawing.Point(238, 232)
+        Me.btnCalculate.Location = New System.Drawing.Point(442, 224)
         Me.btnCalculate.Name = "btnCalculate"
-        Me.btnCalculate.Size = New System.Drawing.Size(212, 66)
+        Me.btnCalculate.Size = New System.Drawing.Size(227, 77)
         Me.btnCalculate.TabIndex = 4
         Me.btnCalculate.Text = "Calculate"
         Me.btnCalculate.UseMnemonic = False
         Me.btnCalculate.UseVisualStyleBackColor = True
+        '
+        'btnGrading
+        '
+        Me.btnGrading.Location = New System.Drawing.Point(109, 224)
+        Me.btnGrading.Name = "btnGrading"
+        Me.btnGrading.Size = New System.Drawing.Size(227, 77)
+        Me.btnGrading.TabIndex = 5
+        Me.btnGrading.Text = "Grading"
+        Me.btnGrading.UseVisualStyleBackColor = True
         '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.Controls.Add(Me.btnGrading)
         Me.Controls.Add(Me.btnCalculate)
         Me.Controls.Add(Me.lblNumber2)
         Me.Controls.Add(Me.lblNumber1)
@@ -93,4 +104,5 @@ Partial Class Form1
     Friend WithEvents lblNumber1 As Label
     Friend WithEvents lblNumber2 As Label
     Friend WithEvents btnCalculate As Button
+    Friend WithEvents btnGrading As Button
 End Class
