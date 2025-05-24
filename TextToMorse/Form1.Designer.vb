@@ -29,6 +29,7 @@ Partial Class Form1
         Me.txtMorseCode = New System.Windows.Forms.TextBox()
         Me.btnCode = New System.Windows.Forms.Button()
         Me.btnDecode = New System.Windows.Forms.Button()
+        Me.lblSignal = New System.Windows.Forms.Label()
         Me.SuspendLayout()
         '
         'lblOriginalText
@@ -83,7 +84,7 @@ Partial Class Form1
         Me.btnCode.Cursor = System.Windows.Forms.Cursors.Hand
         Me.btnCode.FlatStyle = System.Windows.Forms.FlatStyle.Popup
         Me.btnCode.Font = New System.Drawing.Font("Cascadia Code", 10.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(204, Byte))
-        Me.btnCode.Location = New System.Drawing.Point(201, 437)
+        Me.btnCode.Location = New System.Drawing.Point(201, 451)
         Me.btnCode.Name = "btnCode"
         Me.btnCode.Size = New System.Drawing.Size(233, 44)
         Me.btnCode.TabIndex = 5
@@ -97,12 +98,24 @@ Partial Class Form1
         Me.btnDecode.FlatStyle = System.Windows.Forms.FlatStyle.Popup
         Me.btnDecode.Font = New System.Drawing.Font("Cascadia Code", 10.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(204, Byte))
         Me.btnDecode.ForeColor = System.Drawing.Color.Black
-        Me.btnDecode.Location = New System.Drawing.Point(696, 437)
+        Me.btnDecode.Location = New System.Drawing.Point(696, 451)
         Me.btnDecode.Name = "btnDecode"
         Me.btnDecode.Size = New System.Drawing.Size(233, 44)
         Me.btnDecode.TabIndex = 6
         Me.btnDecode.Text = "Decode"
         Me.btnDecode.UseVisualStyleBackColor = False
+        '
+        'lblSignal
+        '
+        Me.lblSignal.AutoSize = True
+        Me.lblSignal.BackColor = System.Drawing.Color.DarkGray
+        Me.lblSignal.Font = New System.Drawing.Font("Microsoft Sans Serif", 28.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(204, Byte))
+        Me.lblSignal.ForeColor = System.Drawing.Color.Black
+        Me.lblSignal.Location = New System.Drawing.Point(533, 441)
+        Me.lblSignal.Name = "lblSignal"
+        Me.lblSignal.Size = New System.Drawing.Size(0, 54)
+        Me.lblSignal.TabIndex = 7
+        Me.lblSignal.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'Form1
         '
@@ -110,6 +123,7 @@ Partial Class Form1
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.PaleGoldenrod
         Me.ClientSize = New System.Drawing.Size(1030, 549)
+        Me.Controls.Add(Me.lblSignal)
         Me.Controls.Add(Me.btnDecode)
         Me.Controls.Add(Me.btnCode)
         Me.Controls.Add(Me.txtMorseCode)
@@ -132,4 +146,5 @@ Partial Class Form1
     Friend WithEvents txtMorseCode As TextBox
     Friend WithEvents btnCode As Button
     Friend WithEvents btnDecode As Button
+    Friend WithEvents lblSignal As Label
 End Class

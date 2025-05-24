@@ -53,22 +53,35 @@ Public Class Form1
 
     End Function
 
-    Sub PlayMorseSound(morseCode As String)
+    ' Visual and Sound function
+    Private Async Function PlayMorseVisualAndSound(morseCode As String) As Task
         For Each symbol As Char In morseCode
             Select Case symbol
                 Case "."c
-                    Console.Beep(800, 100)
-                    Threading.Thread.Sleep(100)
+                    lblSignal.Text = "."
+                    lblSignal.BackColor = Color.Gold
+                    Console.Beep(500, 100)
+                    Await Task.Delay(150)
                 Case "-"c
-                    Console.Beep(800, 300)
-                    Threading.Thread.Sleep(100)
-                Case " "c
-                    Threading.Thread.Sleep(300)
+                    lblSignal.Text = "-"
+                    lblSignal.BackColor = Color.Red
+                    Console.Beep(900, 300)
+                    Await Task.Delay(150)
                 Case "/"c
-                    Threading.Thread.Sleep(600)
+                    lblSignal.Text = "/"
+                    lblSignal.BackColor = Color.White
+                    Await Task.Delay(200)
+                Case " "c
+                    lblSignal.Text = ""
+                    lblSignal.BackColor = Color.Black
+                    Await Task.Delay(250)
             End Select
+
+            ' Нулиране
+            lblSignal.Text = ""
+            lblSignal.BackColor = Color.Black
         Next
-    End Sub
+    End Function
 
     Private Sub btnCode_Click(sender As Object, e As EventArgs) Handles btnCode.Click
 
@@ -77,7 +90,7 @@ Public Class Form1
         txtMorseCode.Text = morseCode
 
 
-        PlayMorseSound(morseCode)
+        PlayMorseVisualAndSound(morseCode)
 
     End Sub
 
