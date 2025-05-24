@@ -79,29 +79,37 @@ Partial Class Form1
         '
         'btnCode
         '
-        Me.btnCode.Font = New System.Drawing.Font("Cascadia Code", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(204, Byte))
+        Me.btnCode.BackColor = System.Drawing.Color.Goldenrod
+        Me.btnCode.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.btnCode.FlatStyle = System.Windows.Forms.FlatStyle.Popup
+        Me.btnCode.Font = New System.Drawing.Font("Cascadia Code", 10.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(204, Byte))
         Me.btnCode.Location = New System.Drawing.Point(201, 437)
         Me.btnCode.Name = "btnCode"
         Me.btnCode.Size = New System.Drawing.Size(233, 44)
         Me.btnCode.TabIndex = 5
         Me.btnCode.Text = "Code"
-        Me.btnCode.UseVisualStyleBackColor = True
+        Me.btnCode.UseVisualStyleBackColor = False
         '
         'btnDecode
         '
-        Me.btnDecode.Font = New System.Drawing.Font("Cascadia Code", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(204, Byte))
-        Me.btnDecode.Location = New System.Drawing.Point(695, 437)
+        Me.btnDecode.BackColor = System.Drawing.Color.DarkGoldenrod
+        Me.btnDecode.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.btnDecode.FlatStyle = System.Windows.Forms.FlatStyle.Popup
+        Me.btnDecode.Font = New System.Drawing.Font("Cascadia Code", 10.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(204, Byte))
+        Me.btnDecode.ForeColor = System.Drawing.Color.Black
+        Me.btnDecode.Location = New System.Drawing.Point(696, 437)
         Me.btnDecode.Name = "btnDecode"
         Me.btnDecode.Size = New System.Drawing.Size(233, 44)
         Me.btnDecode.TabIndex = 6
         Me.btnDecode.Text = "Decode"
-        Me.btnDecode.UseVisualStyleBackColor = True
+        Me.btnDecode.UseVisualStyleBackColor = False
         '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(1012, 655)
+        Me.BackColor = System.Drawing.Color.PaleGoldenrod
+        Me.ClientSize = New System.Drawing.Size(1030, 549)
         Me.Controls.Add(Me.btnDecode)
         Me.Controls.Add(Me.btnCode)
         Me.Controls.Add(Me.txtMorseCode)
@@ -109,6 +117,7 @@ Partial Class Form1
         Me.Controls.Add(Me.lblCap)
         Me.Controls.Add(Me.txtOriginalText)
         Me.Controls.Add(Me.lblOriginalText)
+        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow
         Me.Name = "Form1"
         Me.Text = "Form1"
         Me.ResumeLayout(False)
