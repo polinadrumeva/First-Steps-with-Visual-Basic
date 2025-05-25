@@ -24,17 +24,19 @@ Partial Class ArraysExercises
     Private Sub InitializeComponent()
         Me.btnExercise1 = New System.Windows.Forms.Button()
         Me.btnExercise2 = New System.Windows.Forms.Button()
-        Me.Button3 = New System.Windows.Forms.Button()
-        Me.Button4 = New System.Windows.Forms.Button()
-        Me.Button5 = New System.Windows.Forms.Button()
-        Me.Button6 = New System.Windows.Forms.Button()
-        Me.Button7 = New System.Windows.Forms.Button()
-        Me.Button8 = New System.Windows.Forms.Button()
+        Me.btnExercise3 = New System.Windows.Forms.Button()
+        Me.btnExercise4 = New System.Windows.Forms.Button()
+        Me.btnExercise5 = New System.Windows.Forms.Button()
+        Me.btnExercise6 = New System.Windows.Forms.Button()
+        Me.btnExercise7 = New System.Windows.Forms.Button()
+        Me.btnExercise8 = New System.Windows.Forms.Button()
         Me.lblStart = New System.Windows.Forms.Label()
         Me.lblExercise1 = New System.Windows.Forms.Label()
         Me.lblInitalData = New System.Windows.Forms.Label()
         Me.lbInitialData = New System.Windows.Forms.ListBox()
         Me.lblExercise2 = New System.Windows.Forms.Label()
+        Me.lblExersice3 = New System.Windows.Forms.Label()
+        Me.lblExercise4 = New System.Windows.Forms.Label()
         Me.SuspendLayout()
         '
         'btnExercise1
@@ -57,77 +59,77 @@ Partial Class ArraysExercises
         Me.btnExercise2.Text = "Exercise 2"
         Me.btnExercise2.UseVisualStyleBackColor = True
         '
-        'Button3
+        'btnExercise3
         '
-        Me.Button3.Location = New System.Drawing.Point(42, 206)
-        Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(148, 37)
-        Me.Button3.TabIndex = 2
-        Me.Button3.Text = "Button3"
-        Me.Button3.UseVisualStyleBackColor = True
+        Me.btnExercise3.Location = New System.Drawing.Point(42, 206)
+        Me.btnExercise3.Name = "btnExercise3"
+        Me.btnExercise3.Size = New System.Drawing.Size(148, 37)
+        Me.btnExercise3.TabIndex = 2
+        Me.btnExercise3.Text = "Exercise 3"
+        Me.btnExercise3.UseVisualStyleBackColor = True
         '
-        'Button4
+        'btnExercise4
         '
-        Me.Button4.Location = New System.Drawing.Point(42, 271)
-        Me.Button4.Name = "Button4"
-        Me.Button4.Size = New System.Drawing.Size(148, 37)
-        Me.Button4.TabIndex = 3
-        Me.Button4.Text = "Button4"
-        Me.Button4.UseVisualStyleBackColor = True
+        Me.btnExercise4.Location = New System.Drawing.Point(42, 271)
+        Me.btnExercise4.Name = "btnExercise4"
+        Me.btnExercise4.Size = New System.Drawing.Size(148, 37)
+        Me.btnExercise4.TabIndex = 3
+        Me.btnExercise4.Text = "Exercise 4"
+        Me.btnExercise4.UseVisualStyleBackColor = True
         '
-        'Button5
+        'btnExercise5
         '
-        Me.Button5.Location = New System.Drawing.Point(42, 336)
-        Me.Button5.Name = "Button5"
-        Me.Button5.Size = New System.Drawing.Size(148, 37)
-        Me.Button5.TabIndex = 4
-        Me.Button5.Text = "Button5"
-        Me.Button5.UseVisualStyleBackColor = True
+        Me.btnExercise5.Location = New System.Drawing.Point(42, 336)
+        Me.btnExercise5.Name = "btnExercise5"
+        Me.btnExercise5.Size = New System.Drawing.Size(148, 37)
+        Me.btnExercise5.TabIndex = 4
+        Me.btnExercise5.Text = "Exercise 5"
+        Me.btnExercise5.UseVisualStyleBackColor = True
         '
-        'Button6
+        'btnExercise6
         '
-        Me.Button6.Location = New System.Drawing.Point(42, 401)
-        Me.Button6.Name = "Button6"
-        Me.Button6.Size = New System.Drawing.Size(148, 37)
-        Me.Button6.TabIndex = 5
-        Me.Button6.Text = "Button6"
-        Me.Button6.UseVisualStyleBackColor = True
+        Me.btnExercise6.Location = New System.Drawing.Point(42, 401)
+        Me.btnExercise6.Name = "btnExercise6"
+        Me.btnExercise6.Size = New System.Drawing.Size(148, 37)
+        Me.btnExercise6.TabIndex = 5
+        Me.btnExercise6.Text = "Exercise 6"
+        Me.btnExercise6.UseVisualStyleBackColor = True
         '
-        'Button7
+        'btnExercise7
         '
-        Me.Button7.Location = New System.Drawing.Point(42, 466)
-        Me.Button7.Name = "Button7"
-        Me.Button7.Size = New System.Drawing.Size(148, 37)
-        Me.Button7.TabIndex = 6
-        Me.Button7.Text = "Button7"
-        Me.Button7.UseVisualStyleBackColor = True
+        Me.btnExercise7.Location = New System.Drawing.Point(42, 466)
+        Me.btnExercise7.Name = "btnExercise7"
+        Me.btnExercise7.Size = New System.Drawing.Size(148, 37)
+        Me.btnExercise7.TabIndex = 6
+        Me.btnExercise7.Text = "Exercise 7"
+        Me.btnExercise7.UseVisualStyleBackColor = True
         '
-        'Button8
+        'btnExercise8
         '
-        Me.Button8.Location = New System.Drawing.Point(42, 531)
-        Me.Button8.Name = "Button8"
-        Me.Button8.Size = New System.Drawing.Size(148, 37)
-        Me.Button8.TabIndex = 7
-        Me.Button8.Text = "Button8"
-        Me.Button8.UseVisualStyleBackColor = True
+        Me.btnExercise8.Location = New System.Drawing.Point(42, 531)
+        Me.btnExercise8.Name = "btnExercise8"
+        Me.btnExercise8.Size = New System.Drawing.Size(148, 37)
+        Me.btnExercise8.TabIndex = 7
+        Me.btnExercise8.Text = "Exercise 8"
+        Me.btnExercise8.UseVisualStyleBackColor = True
         '
         'lblStart
         '
         Me.lblStart.AutoSize = True
-        Me.lblStart.Font = New System.Drawing.Font("Kristen ITC", 13.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblStart.Location = New System.Drawing.Point(93, 27)
+        Me.lblStart.Font = New System.Drawing.Font("MV Boli", 19.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblStart.Location = New System.Drawing.Point(237, 9)
         Me.lblStart.Name = "lblStart"
-        Me.lblStart.Size = New System.Drawing.Size(812, 30)
+        Me.lblStart.Size = New System.Drawing.Size(671, 44)
         Me.lblStart.TabIndex = 8
-        Me.lblStart.Text = "C o d i n g   e x e r c i s e s   u s i n g   a r r a y s   w i t h   l o o p s"
+        Me.lblStart.Text = "Coding exercises using arrays with loops"
         '
         'lblExercise1
         '
         Me.lblExercise1.AutoSize = True
-        Me.lblExercise1.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(204, Byte))
+        Me.lblExercise1.Font = New System.Drawing.Font("MV Boli", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblExercise1.Location = New System.Drawing.Point(196, 81)
         Me.lblExercise1.Name = "lblExercise1"
-        Me.lblExercise1.Size = New System.Drawing.Size(493, 22)
+        Me.lblExercise1.Size = New System.Drawing.Size(547, 23)
         Me.lblExercise1.TabIndex = 9
         Me.lblExercise1.Text = "Output each item in separate message box one after another"
         '
@@ -146,22 +148,44 @@ Partial Class ArraysExercises
         '
         Me.lbInitialData.BackColor = System.Drawing.SystemColors.InactiveCaption
         Me.lbInitialData.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.lbInitialData.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lbInitialData.FormattingEnabled = True
-        Me.lbInitialData.ItemHeight = 16
+        Me.lbInitialData.ItemHeight = 20
+        Me.lbInitialData.Items.AddRange(New Object() {"Begin each procedure with the ", "following code to declare ", "an initialise an array of integers. ", "  ", " Dim arrNumber(4) As Integer", "", "        arrNumber(0) = 5", "        arrNumber(1) = 7", "        arrNumber(2) = 45", "        arrNumber(3) = 18", "        arrNumber(4) = 59"})
         Me.lbInitialData.Location = New System.Drawing.Point(807, 141)
         Me.lbInitialData.Name = "lbInitialData"
-        Me.lbInitialData.Size = New System.Drawing.Size(287, 306)
+        Me.lbInitialData.Size = New System.Drawing.Size(287, 302)
         Me.lbInitialData.TabIndex = 11
         '
         'lblExercise2
         '
         Me.lblExercise2.AutoSize = True
-        Me.lblExercise2.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(204, Byte))
+        Me.lblExercise2.Font = New System.Drawing.Font("MV Boli", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblExercise2.Location = New System.Drawing.Point(196, 146)
         Me.lblExercise2.Name = "lblExercise2"
-        Me.lblExercise2.Size = New System.Drawing.Size(539, 22)
+        Me.lblExercise2.Size = New System.Drawing.Size(606, 23)
         Me.lblExercise2.TabIndex = 12
         Me.lblExercise2.Text = "Output all of the items in the same message box on separate lines "
+        '
+        'lblExersice3
+        '
+        Me.lblExersice3.AutoSize = True
+        Me.lblExersice3.Font = New System.Drawing.Font("MV Boli", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblExersice3.Location = New System.Drawing.Point(196, 211)
+        Me.lblExersice3.Name = "lblExersice3"
+        Me.lblExersice3.Size = New System.Drawing.Size(571, 23)
+        Me.lblExersice3.TabIndex = 13
+        Me.lblExersice3.Text = "Add up all of the items then output total in the message box "
+        '
+        'lblExercise4
+        '
+        Me.lblExercise4.AutoSize = True
+        Me.lblExercise4.Font = New System.Drawing.Font("MV Boli", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblExercise4.Location = New System.Drawing.Point(196, 276)
+        Me.lblExercise4.Name = "lblExercise4"
+        Me.lblExercise4.Size = New System.Drawing.Size(323, 23)
+        Me.lblExercise4.TabIndex = 14
+        Me.lblExercise4.Text = "Calculate the average of the items "
         '
         'ArraysExercises
         '
@@ -169,17 +193,19 @@ Partial Class ArraysExercises
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.SystemColors.HighlightText
         Me.ClientSize = New System.Drawing.Size(1128, 618)
+        Me.Controls.Add(Me.lblExercise4)
+        Me.Controls.Add(Me.lblExersice3)
         Me.Controls.Add(Me.lblExercise2)
         Me.Controls.Add(Me.lbInitialData)
         Me.Controls.Add(Me.lblInitalData)
         Me.Controls.Add(Me.lblExercise1)
         Me.Controls.Add(Me.lblStart)
-        Me.Controls.Add(Me.Button8)
-        Me.Controls.Add(Me.Button7)
-        Me.Controls.Add(Me.Button6)
-        Me.Controls.Add(Me.Button5)
-        Me.Controls.Add(Me.Button4)
-        Me.Controls.Add(Me.Button3)
+        Me.Controls.Add(Me.btnExercise8)
+        Me.Controls.Add(Me.btnExercise7)
+        Me.Controls.Add(Me.btnExercise6)
+        Me.Controls.Add(Me.btnExercise5)
+        Me.Controls.Add(Me.btnExercise4)
+        Me.Controls.Add(Me.btnExercise3)
         Me.Controls.Add(Me.btnExercise2)
         Me.Controls.Add(Me.btnExercise1)
         Me.Name = "ArraysExercises"
@@ -191,15 +217,17 @@ Partial Class ArraysExercises
 
     Friend WithEvents btnExercise1 As Button
     Friend WithEvents btnExercise2 As Button
-    Friend WithEvents Button3 As Button
-    Friend WithEvents Button4 As Button
-    Friend WithEvents Button5 As Button
-    Friend WithEvents Button6 As Button
-    Friend WithEvents Button7 As Button
-    Friend WithEvents Button8 As Button
+    Friend WithEvents btnExercise3 As Button
+    Friend WithEvents btnExercise4 As Button
+    Friend WithEvents btnExercise5 As Button
+    Friend WithEvents btnExercise6 As Button
+    Friend WithEvents btnExercise7 As Button
+    Friend WithEvents btnExercise8 As Button
     Friend WithEvents lblStart As Label
     Friend WithEvents lblExercise1 As Label
     Friend WithEvents lblInitalData As Label
     Friend WithEvents lbInitialData As ListBox
     Friend WithEvents lblExercise2 As Label
+    Friend WithEvents lblExersice3 As Label
+    Friend WithEvents lblExercise4 As Label
 End Class
