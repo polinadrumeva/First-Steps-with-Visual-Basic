@@ -37,6 +37,10 @@ Partial Class ArraysExercises
         Me.lblExercise2 = New System.Windows.Forms.Label()
         Me.lblExersice3 = New System.Windows.Forms.Label()
         Me.lblExercise4 = New System.Windows.Forms.Label()
+        Me.lblExercise5 = New System.Windows.Forms.Label()
+        Me.lblExercise6 = New System.Windows.Forms.Label()
+        Me.lblExercise7 = New System.Windows.Forms.Label()
+        Me.lblExercise8 = New System.Windows.Forms.Label()
         Me.SuspendLayout()
         '
         'btnExercise1
@@ -151,7 +155,7 @@ Partial Class ArraysExercises
         Me.lbInitialData.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lbInitialData.FormattingEnabled = True
         Me.lbInitialData.ItemHeight = 20
-        Me.lbInitialData.Items.AddRange(New Object() {"Begin each procedure with the ", "following code to declare ", "an initialise an array of integers. ", "  ", " Dim arrNumber(4) As Integer", "", "        arrNumber(0) = 5", "        arrNumber(1) = 7", "        arrNumber(2) = 45", "        arrNumber(3) = 18", "        arrNumber(4) = 59"})
+        Me.lbInitialData.Items.AddRange(New Object() {"Begin each procedure with the ", "following code to declare ", "an initialise an array of integers. ", "  ", " Dim arrNumber(4) As Integer", "", "        arrNumber(0) = 18", "        arrNumber(1) = 7", "        arrNumber(2) = 45", "        arrNumber(3) = 5", "        arrNumber(4) = 59"})
         Me.lbInitialData.Location = New System.Drawing.Point(807, 141)
         Me.lbInitialData.Name = "lbInitialData"
         Me.lbInitialData.Size = New System.Drawing.Size(287, 302)
@@ -163,9 +167,9 @@ Partial Class ArraysExercises
         Me.lblExercise2.Font = New System.Drawing.Font("MV Boli", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblExercise2.Location = New System.Drawing.Point(196, 146)
         Me.lblExercise2.Name = "lblExercise2"
-        Me.lblExercise2.Size = New System.Drawing.Size(606, 23)
+        Me.lblExercise2.Size = New System.Drawing.Size(383, 23)
         Me.lblExercise2.TabIndex = 12
-        Me.lblExercise2.Text = "Output all of the items in the same message box on separate lines "
+        Me.lblExercise2.Text = "Output all of the items on separate lines "
         '
         'lblExersice3
         '
@@ -187,12 +191,57 @@ Partial Class ArraysExercises
         Me.lblExercise4.TabIndex = 14
         Me.lblExercise4.Text = "Calculate the average of the items "
         '
+        'lblExercise5
+        '
+        Me.lblExercise5.AutoSize = True
+        Me.lblExercise5.Font = New System.Drawing.Font("MV Boli", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblExercise5.Location = New System.Drawing.Point(196, 340)
+        Me.lblExercise5.Name = "lblExercise5"
+        Me.lblExercise5.Size = New System.Drawing.Size(528, 23)
+        Me.lblExercise5.TabIndex = 15
+        Me.lblExercise5.Text = "Add up the items greater than 25 then autput the result"
+        '
+        'lblExercise6
+        '
+        Me.lblExercise6.AutoSize = True
+        Me.lblExercise6.Font = New System.Drawing.Font("MV Boli", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblExercise6.Location = New System.Drawing.Point(196, 405)
+        Me.lblExercise6.Name = "lblExercise6"
+        Me.lblExercise6.Size = New System.Drawing.Size(197, 23)
+        Me.lblExercise6.TabIndex = 16
+        Me.lblExercise6.Text = "FInd the largest item"
+        '
+        'lblExercise7
+        '
+        Me.lblExercise7.AutoSize = True
+        Me.lblExercise7.Font = New System.Drawing.Font("MV Boli", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblExercise7.Location = New System.Drawing.Point(196, 470)
+        Me.lblExercise7.Name = "lblExercise7"
+        Me.lblExercise7.Size = New System.Drawing.Size(207, 23)
+        Me.lblExercise7.TabIndex = 17
+        Me.lblExercise7.Text = "Find the smallest item"
+        '
+        'lblExercise8
+        '
+        Me.lblExercise8.AutoSize = True
+        Me.lblExercise8.Font = New System.Drawing.Font("MV Boli", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblExercise8.Location = New System.Drawing.Point(196, 535)
+        Me.lblExercise8.Name = "lblExercise8"
+        Me.lblExercise8.Size = New System.Drawing.Size(873, 23)
+        Me.lblExercise8.TabIndex = 18
+        Me.lblExercise8.Text = "Replace each item in the array with a new value that is twice as big then output " &
+    "the new values"
+        '
         'ArraysExercises
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.SystemColors.HighlightText
         Me.ClientSize = New System.Drawing.Size(1128, 618)
+        Me.Controls.Add(Me.lblExercise8)
+        Me.Controls.Add(Me.lblExercise7)
+        Me.Controls.Add(Me.lblExercise6)
+        Me.Controls.Add(Me.lblExercise5)
         Me.Controls.Add(Me.lblExercise4)
         Me.Controls.Add(Me.lblExersice3)
         Me.Controls.Add(Me.lblExercise2)
@@ -230,4 +279,8 @@ Partial Class ArraysExercises
     Friend WithEvents lblExercise2 As Label
     Friend WithEvents lblExersice3 As Label
     Friend WithEvents lblExercise4 As Label
+    Friend WithEvents lblExercise5 As Label
+    Friend WithEvents lblExercise6 As Label
+    Friend WithEvents lblExercise7 As Label
+    Friend WithEvents lblExercise8 As Label
 End Class
