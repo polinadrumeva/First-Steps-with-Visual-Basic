@@ -51,4 +51,48 @@
             Next
         Next
     End Sub
+
+    Private Sub btnAllData_Click(sender As Object, e As EventArgs) Handles btnAllData.Click
+
+        Dim outputString As String
+
+        For x = 0 To 3
+            For y = 0 To 4
+                outputString += arPeople(y, x) + " "
+
+            Next
+            outputString += vbNewLine
+
+        Next
+
+        MessageBox.Show(outputString)
+    End Sub
+
+    Private Sub btnSearch_Click(sender As Object, e As EventArgs) Handles btnSearch.Click
+
+        Dim x As Integer
+        Dim beFound As Boolean = False
+        Dim output As String
+
+        Dim tagret As String = InputBox("Enter the surname of person you want to find.")
+
+        For x = 0 To 3
+            If arPeople(1, x) = tagret Then
+                beFound = True
+            End If
+            Exit For
+        Next
+
+        If beFound = True Then
+            For y = 0 To 4
+                output += arPeople(y, x) + " "
+            Next
+            MessageBox.Show(output)
+        Else
+            MessageBox.Show("Not found!")
+        End If
+
+
+
+    End Sub
 End Class
