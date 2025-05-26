@@ -33,7 +33,22 @@
 
     End Sub
 
-    Private Sub btnStart_Click(sender As Object, e As EventArgs) Handles btnStart.Click
+    Private Sub btnRowWise_Click(sender As Object, e As EventArgs) Handles btnRowWise.Click
 
+        For x = 0 To 3
+            For y = 0 To 4
+                MessageBox.Show(arPeople(y, x))
+            Next
+        Next
+
+
+    End Sub
+
+    Private Sub btnColWise_Click(sender As Object, e As EventArgs) Handles btnColWise.Click
+        For x = 0 To 4
+            For y = 0 To 3
+                MessageBox.Show(arPeople(x, y))
+            Next
+        Next
     End Sub
 End Class
